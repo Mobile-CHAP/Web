@@ -1,0 +1,6 @@
+{
+  "name": "CHeap Robot Arm Project",
+  "tagline": "The CHeap Robot Arm Project by Plymouth University",
+  "body": "### Welcome to CHAP\r\nCHAP, or CHeap Arm Project, centers around the creation of a low cost and open source mobile tele-operated robot arm designed. With a final production target of under or around £1000, this arm intends to be the most accessible robot arm yet!\r\nCHAP hopes to give greater levels on independence to those living with disabilities by creating a financially accessible platform that can help out around the home. By being open source, we hope to encourage further development such as robot intelligence and automation in the future.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

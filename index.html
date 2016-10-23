@@ -1,98 +1,192 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+<html lang="en">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="CHeap Arm Project">
+  <meta name="author" content="Dominic Cassidy">
+  <link rel="icon" href="favicon.ico">
+
+  <title>CHAP: The CHeap Arm Project</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/stylesheet.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+</head>
 
-    <title>CHeap Robot Arm Project by Mobile-CHAP</title>
-	<style>
-		.navbar {
-			position:relative;
-			top:20px;
-		}
-		.navbar a.button{
-			position:relative;
-			display: block;
-			float:left;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  width:50px;
-  height:50px;
-  padding:15px 0 0 15px;
-  margin-right: 15px;
-  border: 2px solid rgba(220,220,220,1);
-  -webkit-border-radius: 5%;
-  border-radius: 5%;
-  background: -webkit-linear-gradient(-90deg, rgba(64,150,238,1) 0, rgba(14,90,255,1) 100%);
-  background: -moz-linear-gradient(180deg, rgba(64,150,238,1) 0, rgba(14,90,255,1) 100%);
-  background: linear-gradient(180deg, rgba(64,150,238,1) 0, rgba(14,90,255,1) 100%);
-  background-position: 50% 50%;
-		}
-	</style>
-  </head>
+<body>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>CHeap Robot Arm Project</h1>
-        <h2>The CHeap Robot Arm Project by Plymouth University</h2>
-        <a href="https://github.com/Mobile-CHAP/CHAP" class="button"><small>View project on</small> GitHub</a>
-      </div>
-	  
-	  <div class="navbar">
-        <a href="images/Baseplate-v1.svg" class="button" id="but1">
-		<small>Design</small>
-		v1
-		</a>
-		<a href="images/Baseplate-v2.svg" class="button" id="but2">
-		<small>Design</small>
-		v2
-		</a>
-      </div>
-	  
-	  
-    </header>
+  <!-- Fixed navbar -->
+  <div class="container">
+    <div class="navbar-header">
+      <p class="navbar-brand">CHAP</p>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+        <li><a data-toggle="tab" href="#research">Research</a></li>
+        <li><a data-toggle="tab" href="#source">Source</a></li>
+        <li><a data-toggle="tab" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-			<a id="welcome-to-chap" class="anchor" href="#welcome-to-chap" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to CHAP</h3>
 
-			<p>CHAP, or CHeap Arm Project, centers around the creation of a low cost and open source mobile tele-operated robot arm designed. With a final production target of under or around £1000, this arm intends to be the most accessible robot arm yet!</p>
-			<p>CHAP hopes to give greater levels of independence to those living with disabilities by creating a financially accessible platform that can help out around the home. By being open source, we hope to encourage further development such as robot intelligence and automation in the future.</p>
-					
-			 <img src="images/CHAPV1small.jpg" alt="CHAP"> 
-		
-		</section>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <div class="container">
+        <h3>CHAP: The CHeap Arm Project</h3>
+        <p>Welcome to the CHAP homepage, our website is still a work in process. We are currently added source code and designs for CHAP as well as supporting research. Please take a look around and feel free to support development or fork the designs for
+          your own project!</p>
 
-        <aside id="sidebar">
-          <a href="https://github.com/Mobile-CHAP/CHAP/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/Mobile-CHAP/CHAP/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+        <img class="center-block img-thumbnail" src="img/side.jpg"></img>
 
-          <p class="repo-owner"><a href="https://github.com/Mobile-CHAP/CHAP"></a> is maintained by <a href="https://github.com/Mobile-CHAP">Mobile-CHAP</a>.</p>
 
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
       </div>
     </div>
+    <div id="research" class="tab-pane fade">
+      <div class="container">
+        <h3>Current Research</h3>
+        <p>
+          Research papers describing the developments of the robot arm and subsequent experimentation will be provided for each version of the <abbr title="CHeap Arm Project" class="initialism">CHAP</abbr> system.
+        </p>
 
-  
-  </body>
+        <div class="panel panel-default">
+          <div class="panel-heading">Version 2</div>
+          <div class="panel-body">
+            <p>Coming soon, see how you can help on our GitHub issues pages:</p>
+            <a class="btn btn-warning" href="https://github.com/Mobile-CHAP/controller/issues">Software Issues <span class="badge"  id="softwareIssues">0</span></a>
+            <a class="btn btn-warning" href="https://github.com/Mobile-CHAP/design/issues">Hardware Issues <span class="badge"  id="hardwareIssues">0</span></a>
+          </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="panel panel-default">
+          <div class="panel-heading">Version 1</div>
+          <div class="panel-body">
+            <div class="list-group">
+              <a href="#" class="list-group-item" data-toggle="modal" data-target="#hardwarePDF">
+                <h4 class="list-group-item-heading">Hardware Report</h4>
+                <p class="list-group-item-text">This report examines the strengths and weaknesses of the robot's hardware. Following trials, it is dicovered that the gripper is underpowered and requires additional power or an improved motor for better results.</p>
+              </a>
+              <a href="#" class="list-group-item" data-toggle="modal" data-target="#softwarePDF">
+                <h4 class="list-group-item-heading">Software Report</h4>
+                <p class="list-group-item-text">This report desribes the logic and control flow of the developed tele-operation system. It is found that the use of web technologies created a reliable system accessible by all test operating systems and devices.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Modal Hardware -->
+      <div class="modal fade" id="hardwarePDF" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content pdf-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+              <h4 class="modal-title">Hardware Paper - Dominic Cassidy</h4>
+            </div>
+            <div class="modal-body pdf-body">
+              <object class="pdfViewer" data="research/hardware-221016.pdf" alt="Hardware Report"></object>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal Software-->
+      <div class="modal fade" id="softwarePDF" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content pdf-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+              <h4 class="modal-title">Software Paper - Dominic Cassidy</h4>
+            </div>
+            <div class="modal-body pdf-body">
+              <object class="pdfViewer" data="research/software-221016.pdf" alt="Software Report"></object>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div id="source" class="tab-pane fade">
+      <div class="container">
+        <h3>Open Source</h3>
+        <p>All materials used in the development of the CHeap Arm Project are open source and fully available on GitHub. Designs and software can be found below:</p>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Repositories</div>
+          <div class="panel-body">
+            <a class="btn btn-default" href="https://github.com/Mobile-CHAP/controller">Software <span class="badge"  id="softwareVersion">v1</span></a>
+            <a class="btn btn-default" href="https://github.com/Mobile-CHAP/design">Hardware <span class="badge"  id="hardwareVersion">v1</span></a>
+          </div>
+        </div>
+
+        <div class="alert alert-info" role="alert">Note: We are still in the process of uploading our files!</div>
+      </div>
+    </div>
+    <div id="contact" class="tab-pane fade">
+      <div class="container">
+        <h3>Contact Details</h3>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">Guido Bugmann</div>
+          <div class="panel-body">
+            <a href="mailto:G.Bugmann@plymouth.ac.uk">G.Bugmann@plymouth.ac.uk</a>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">Dominic Cassidy</div>
+          <div class="panel-body">
+            <a href="mailto:dominic.cassidy@postgrad.plymouth.ac.uk">dominic.cassidy@postgrad.plymouth.ac.uk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(function() {
+      $.ajax({
+        url: "https://api.github.com/repos/Mobile-CHAP/controller/issues",
+        success: function(result) {
+          console.log(result.length);
+          $("#softwareIssues").html(result.length);
+        }
+      });
+
+      $.ajax({
+        url: "https://api.github.com/repos/Mobile-CHAP/design/issues",
+        success: function(result) {
+          console.log(result.length);
+          $("#hardwareIssues").html(result.length);
+        }
+      });
+
+    });
+  </script>
+
+</body>
+
 </html>

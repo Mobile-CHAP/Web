@@ -1,0 +1,30 @@
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+img {
+  width: 60%;
+}
+
+#myModal {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pdf-content {
+  height: 60em;
+}
+
+.pdf-body {
+  height: 92.5%;
+  width: 100%;
+}
+
+.pdfViewer {
+  height: 100%;
+  width: 100%;
+}
